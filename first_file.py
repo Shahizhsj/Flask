@@ -47,4 +47,4 @@ def predict():
     else:
         return jsonpify(prediction='Price may increase')
 # Run the Flask app.
-app.run(debug=True)
+app.run(debug=False,host='0.0.0.0')
