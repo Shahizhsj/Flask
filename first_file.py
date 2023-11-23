@@ -3,7 +3,7 @@ from finvizfinance.screener.overview import Overview
 from flask_jsonpify import jsonpify
 import yfinance as yf
 import pandas as pd
-import os
+
 from sklearn.ensemble import RandomForestClassifier
 app = Flask(__name__)
 
