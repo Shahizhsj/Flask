@@ -1,0 +1,6 @@
+flask
+finvizfinance
+pandas
+yfinance
+flask_jsonpify
+sklearn
